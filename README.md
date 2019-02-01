@@ -12,6 +12,7 @@ Input files:
 Text documents
 
 Output format:
+
 MapReduce job should generate a list of key-value pairs, and ranked in alphabetical order, like (this example is only used to show the format):
 
 a 3.5613186813186815,
