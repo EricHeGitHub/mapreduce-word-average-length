@@ -10,10 +10,16 @@ StringTokenizer itr = new StringTokenizer(value.toString(), " *$&#/\t\n\f\"'\\,.
 
 Input files:
 Text documents
+
 Output format:
-Your MapReduce job should generate a list of key-value pairs, and ranked in alphabetical order, like (this example is only used to show the format):
-a 3.5613186813186815
-b 4.3849323131253675
+MapReduce job should generate a list of key-value pairs, and ranked in alphabetical order, like (this example is only used to show the format):
+
+a 3.5613186813186815,
+
+b 4.3849323131253675,
+
 ...... ......
+
 z 7.909090909090909
+
 The average length is of double precision (use DoubleWritable).
