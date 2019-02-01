@@ -1,4 +1,5 @@
 #mapreduce-word-average-length
+
 Project description:
 Given a text file, compute the average length of words starting with each letter. This means that for every letter, you need to compute: the total length of all words that start with that letter divided by the total number of words that start with that letter.
 1.Ignore the letter case, i.e., consider all words as lower case.
